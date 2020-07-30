@@ -15,6 +15,9 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
+// routes
+app.use(require("./routes/api.js"));
+
 let MONGODB_URI =
   process.env.MONGODB_URI ||
   "mongodb://1user:1password@ds359847.mlab.com:59847/heroku_gs08x8nl";
@@ -23,9 +26,6 @@ mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useFindAndModify: false,
 });
-
-// routes
-app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
