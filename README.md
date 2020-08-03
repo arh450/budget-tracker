@@ -12,7 +12,17 @@ This is a basic budget-tracker PWA that uses a noSQL database and the Mongoose O
 
 ## Preview
 
-![Preview](https://media.giphy.com/media/JUMcI10M7hN2wJXGLP/giphy.gif)
+### Online Transaction
+
+![Preview](https://media.giphy.com/media/SVOHEyWF58tLx01TOr/giphy.gif)
+
+### Offline Transaction
+
+![Preview](https://media.giphy.com/media/YSGrPOokq7gysQrLpx/giphy.gif)
+
+### Back Online Transaction
+
+![Preview](https://media.giphy.com/media/du3vS469sLWb2RcwsP/giphy.gif)
 
 ## Technologies Used
 
