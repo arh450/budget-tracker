@@ -7,6 +7,7 @@ const FILES_TO_CACHE = [
   "/manifest.webmanifest",
   "/icons/icon-192x192.png",
   "/icons/icon-512x512.png",
+  "/db.js",
 ];
 
 // the name of the cache we are going to use for storing our static assets
